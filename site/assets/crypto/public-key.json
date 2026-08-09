@@ -1,0 +1,13 @@
+{
+  "kid": "2026-08",
+  "jwk": {
+    "alg": "RSA-OAEP-256",
+    "e": "AQAB",
+    "ext": true,
+    "key_ops": [
+      "encrypt"
+    ],
+    "kty": "RSA",
+    "n": "wwkhoHDSiOL1ZQzoWp_erPd-pg1NhqWfsIocg-a4jcvzOgK085nEEWEDHvpz_tlPBKKV8HUZ7581XEL88VS9gnwpOPe_pDBGhs1aGXt91HMw3kPl5IlWxkJoNN_RSvgA-b9o5BgvM82JHeFUYrwPD29xHRS24qGuxzOyR2zF2yPHCygmk0xGa9vzeecRW8F7MPRFFYURWZgAl7A2uKMVoHi4FeMJP8kFukri9hCBF0ZtMAdLlazVVMY8tsuWrskO9Rc043yna8wXiNFRqyXqA4Y36j1X93nq0QOr0PdyCOflcxQZZAPjN_-wLTC8Af8sYN7AkX5aMtnpnngJxr_OVw"
+  }
+}

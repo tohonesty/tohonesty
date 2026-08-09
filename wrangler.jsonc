@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+
+  "name": "tohonesty-site",
+
+  "main": "./src/worker.js",
+
+  "compatibility_date": "2026-08-08",
+
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash",
+
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+
+  "send_email": [
+    {
+      "name": "INTAKE_EMAIL",
+
+      "destination_address":
+        "tohonesty@tohonesty.com",
+
+      "allowed_sender_addresses": [
+        "tohonesty@tohonesty.com"
+      ]
+    }
+  ],
+
+  "observability": {
+    "enabled": false
+  }
+}
