@@ -1,5 +1,5 @@
 {
-  "kid": "2026-08",
+  "kid": "2026-08-r2",
   "jwk": {
     "alg": "RSA-OAEP-256",
     "e": "AQAB",
@@ -8,6 +8,6 @@
       "encrypt"
     ],
     "kty": "RSA",
-    "n": "wwkhoHDSiOL1ZQzoWp_erPd-pg1NhqWfsIocg-a4jcvzOgK085nEEWEDHvpz_tlPBKKV8HUZ7581XEL88VS9gnwpOPe_pDBGhs1aGXt91HMw3kPl5IlWxkJoNN_RSvgA-b9o5BgvM82JHeFUYrwPD29xHRS24qGuxzOyR2zF2yPHCygmk0xGa9vzeecRW8F7MPRFFYURWZgAl7A2uKMVoHi4FeMJP8kFukri9hCBF0ZtMAdLlazVVMY8tsuWrskO9Rc043yna8wXiNFRqyXqA4Y36j1X93nq0QOr0PdyCOflcxQZZAPjN_-wLTC8Af8sYN7AkX5aMtnpnngJxr_OVw"
+    "n": "xyNryZO8GM3emBdWnzwqK1c1FV13x4E0lkUOLeyXPcJWvNQxz7RbABfMbxCzaCnl-4wPpqK4pW9d3T9wPh1n3Y4NEfN8iSUMmx1SHahUmk7WLA3YNGCu5-25iJh3iKXbZ0alSqi4d7-o2z45MvjtwWOVlCa5anMpu2W1WOUgyGupGZDhwEHYNaEQfyfSTOKTviwQNAOBo5eXo6m19Xj5PImZHxqyzYPLo4Glc-bDmN2_X6KpqTyEYY-L6chrSOeKtRaIB6PzmapQGvcQKlU6maba_0EDt1hVURPgKc4mqSaeJPunkFCXOfx6nX5TKOeDmNnYsRmCzvputu54KrkxJhBRga6bglTh59v0KErZNuJOwCR-9poE3gpMZgF5K3TFVIhR_Hcf5VF6e0nA6h-ux7_3xS1AkXsEoW3BkrBHkWbCVbeQfJywUtcBj82Fa8eDzG9LDyZCvbJg0JC5nPkgKGcz_5UB8WD1738nxCgcSjg6xf-rlLks8pIFr4mfIOZv"
   }
 }

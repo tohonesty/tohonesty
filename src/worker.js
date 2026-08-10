@@ -19,7 +19,7 @@ const MAX_CIPHERTEXT_STRING_LENGTH = 8192;
  * unexpected encryption envelopes.
  */
 const ACCEPTED_KEY_IDS = new Set([
-    "2026-08"
+    "2026-08-r2"
 ]);
 
 const BASE64URL_RE = /^[A-Za-z0-9_-]+$/;
@@ -162,8 +162,8 @@ function validateEnvelope(ciphertextString) {
     }
 
     /*
-     * Your current RSA key is 2048 bits, so the RSA-OAEP
-     * encrypted AES key must be exactly 256 bytes.
+     * Your current RSA key is 3072 bits, so the RSA-OAEP
+     * encrypted AES key must be exactly 384 bytes.
      *
      * Change this to 384 when you rotate to RSA-3072.
      */
@@ -175,7 +175,7 @@ function validateEnvelope(ciphertextString) {
         return false;
     }
 
-    if (encryptedKey.byteLength !== 256) {
+    if (encryptedKey.byteLength !== 384) {
         return false;
     }
 

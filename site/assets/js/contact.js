@@ -69,7 +69,7 @@
         if (
             importedKey.algorithm.name !== "RSA-OAEP" ||
             importedKey.algorithm.hash.name !== "SHA-256" ||
-            importedKey.algorithm.modulusLength < 2048
+            importedKey.algorithm.modulusLength < 3072
         ) {
             throw new Error("Public key does not meet security policy.");
         }
