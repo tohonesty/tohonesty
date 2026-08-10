@@ -533,6 +533,13 @@ rsync -a \
 
 
 #
+# Copy Cloudflare Static Assets response-header rules.
+#
+cp \
+    "$PROJECT_ROOT/site/_headers" \
+    "$DIST/_headers"
+
+#
 # -------------------------------------------------------------------
 # 11. BLOCK SENSITIVE FILES
 # -------------------------------------------------------------------
@@ -686,6 +693,13 @@ done
 
 echo "Font deployment checks passed."
 
+if [[ ! -f "$DIST/_headers" ]]; then
+    echo
+    echo "ERROR: Cloudflare _headers file missing from dist."
+    exit 1
+fi
+
+echo "Cloudflare security headers present."
 
 #
 # -------------------------------------------------------------------
